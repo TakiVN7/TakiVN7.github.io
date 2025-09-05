@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #181a1b;
+    color: #eee;
+}
+header {
+    background: #23272a;
+    padding: 1rem;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+nav {
+    margin-top: 0.5em;
+}
+nav a {
+    color: #61dafb;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+}
+main {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #222;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px #0006;
+}
+.scripts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.script-card {
+    background: #25282c;
+    padding: 1em;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px #0004;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+.script-thumb {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+.get-script-btn {
+    background: #006aff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 0.8em 2.5em;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin: 1em auto 0 auto;
+    display: block;
+}
+.get-script-btn:hover {
+    background: #004fc9;
+}
+footer {
+    text-align: center;
+    margin: 2rem 0 0 0;
+    color: #bbb;
+    font-size: 0.95em;
+}
+@media (max-width: 600px) {
+    main {
+        width: 98%;
+        padding: 0.5rem;
+    }
+    .script-thumb {
+        max-width: 98vw;
+    }
+}
