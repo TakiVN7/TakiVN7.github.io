@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>TakiVN Scripts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <img src="assets/logo.png" alt="Logo" class="logo" onerror="this.style.display='none'">
+            <h1>TakiVN Scripts</h1>
+        </div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Scripts</h2>
+        <!-- Ô tìm kiếm script -->
+        <div class="search-section">
+            <input type="text" id="scriptSearch" placeholder="Tìm script..." autocomplete="off">
+        </div>
+        <div class="scripts-list">
+            <div class="script-card">
+                <img src="assets/NAnew.png" alt="Nameless Admin" class="script-thumb"/>
+                <h3>Nameless Admin</h3>
+                <p>Nameless Admin là bản cải tiến của Infinite Yield (Chắc thế)</p>
+                <button class="get-script-btn" onclick="window.open('https://pastefy.app/IuwcKook', '_blank')">Lấy Script</button>
+            </div>
+            <div class="script-card">
+                <img src="assets/ảnh.jpg" alt="ảnh" class="script-thumb"/>
+                <h3>Tí nữa thêm</h3>
+                <p>Chưa có phen ơi</p>
+                <button class="get-script-btn" onclick="window.open('https://pastefy.app/your-doors-script-link', '_blank')">Lấy Script</button>
+            </div>
+            <!-- Thêm các script khác nếu muốn -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 TakiVN Roblox Scripts. Đéo hợp tác với Roblox.</p>
+    </footer>
+    <!-- Search script JS -->
+    <script>
+    document.getElementById('scriptSearch').addEventListener('input', function() {
+        const search = this.value.toLowerCase();
+        document.querySelectorAll('.script-card').forEach(function(card) {
+            const text = card.innerText.toLowerCase();
+            card.style.display = text.includes(search) ? '' : 'none';
+        });
+    });
+    </script>
+</body>
+</html>
