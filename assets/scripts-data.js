@@ -3,15 +3,13 @@ window.scripts = {
     title: "Nameless Admin",
     image: "assets/NAnew.png",
     desc: "Nameless Admin là bản cải tiến của Infinite Yield (Chắc thế).",
-    code: 'loadstring(game:HttpGet("https://pastefy.app/IuwcKook/raw"))()',
-    info: "1 dòng • 123 Bytes"
+    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))();',
   },
   "doors": {
-    title: "Doors Script",
+    title: "Doors: Blackking",
     image: "assets/doors.png",
-    desc: "Script cho Doors...",
-    code: 'loadstring(game:HttpGet("https://pastefy.app/your-doors-script-link/raw"))()',
-    info: "1 dòng • 115 Bytes"
+    desc: "Script khá ngon cho Doors",
+    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/Blackking.Project"))()',
   }
   // Thêm script khác ở đây
 };
