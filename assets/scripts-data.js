@@ -8,7 +8,7 @@ window.scripts = {
   "doors": {
     title: "Doors: Blackking",
     image: "assets/doors.png",
-    desc: "Script khá ngon cho Doors",
+    desc: "Blackking là script khá ngon cho Doors",
     code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/Blackking.Project"))()',
   }
   // Thêm script khác ở đây
