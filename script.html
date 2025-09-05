@@ -15,7 +15,7 @@
     .copy-btn:active { background: #232f34; }
     .back-btn { display: block; margin: 1.6em auto 0 auto; background: none; color: #61dafb; border: none; font-size: 1.1em; cursor: pointer; text-decoration: underline; }
     </style>
-    <script src="scripts-data.js"></script>
+    <script src="assets/scripts-data.js"></script>
 </head>
 <body>
     <header>
@@ -50,7 +50,6 @@
             <h1>${data.title}</h1>
             <img src="${data.image}" alt="${data.title}" class="script-detail-img" />
             <div class="script-detail-desc">${data.desc}</div>
-            <div style="margin-bottom: 0.5em; color:#888; text-align:center;">${data.info || ""}</div>
             <pre class="script-detail-code" id="codeArea">${data.code}</pre>
             <button class="copy-btn" onclick="copyScript()">Copy</button>
             <button class="back-btn" onclick="window.location.href='index.html'">← Quay lại</button>
