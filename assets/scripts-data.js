@@ -16,6 +16,12 @@ window.scripts = {
     image: "assets/piggy.png",
     desc: "Script Piggy giúp mấy thằng bị skill issue",
     code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/StarHackScripts/StarHack-Hub-Deepstar-Hub/refs/heads/main/StarHack%20Hub%20-%20Piggy%20Pro%20Hub.txt"))()'
+  },
+  "ink-game": {
+    title: "Ink Game",
+    image: "assets/ink-game.png",
+    desc: "Trở thành nhân vật chính không khó (trừ khi xài ngu)",
+    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))()'
   }
   // Thêm script khác ở đây
 };
