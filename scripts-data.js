@@ -1,15 +1,9 @@
 window.scripts = {
-  "nameless-admin": {
-    title: "Nameless Admin",
-    image: "assets/NAnew.png",
-    desc: "Nameless Admin là bản cải tiến của Infinite Yield (Chắc thế).",
-    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))();'
-  },
-  "doors": {
-    title: "Doors: Blackking",
-    image: "assets/doors.png",
-    desc: "Blackking là script khá ngon cho Doors",
-    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/Blackking.Project"))()'
+  "ink-game": {
+    title: "Ink Game: Ringta",
+    image: "assets/ink-game.png",
+    desc: "Trở thành nhân vật chính không khó (trừ khi xài ngu)",
+    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))()'
   },
   "piggy": {
     title: "Piggy: Star Hack Hub",
@@ -17,11 +11,17 @@ window.scripts = {
     desc: "Script Piggy giúp mấy thằng bị skill issue",
     code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/StarHackScripts/StarHack-Hub-Deepstar-Hub/refs/heads/main/StarHack%20Hub%20-%20Piggy%20Pro%20Hub.txt"))()'
   },
-  "ink-game": {
-    title: "Ink Game: Ringta",
-    image: "assets/ink-game.png",
-    desc: "Trở thành nhân vật chính không khó (trừ khi xài ngu)",
-    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))()'
+  "doors": {
+    title: "Doors: Blackking",
+    image: "assets/doors.png",
+    desc: "Blackking là script khá ngon cho Doors",
+    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/Blackking.Project"))()'
+  },
+  "nameless-admin": {
+    title: "Nameless Admin",
+    image: "assets/NAnew.png",
+    desc: "Nameless Admin là bản cải tiến của Infinite Yield (Chắc thế).",
+    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))();'
   }
   
   // Thêm script khác ở đây
