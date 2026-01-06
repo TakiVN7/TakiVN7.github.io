@@ -15,7 +15,7 @@ window.scripts = {
     title: "Doors: Blackking",
     image: "assets/doors.png",
     desc: "Blackking là script khá ngon cho Doors",
-    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/Blackking.Project"))()'
+    code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/GeorgeRoblox/BlackKingKeylessNew/refs/heads/main/New.Lua"))()'
   },
   "nameless-admin": {
     title: "Nameless Admin",
